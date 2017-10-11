@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.acme.horariosautobus.MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/alucheButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/escuelaButton"
+            android:layout_alignBottom="@+id/escuelaButton"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="61dp"
+            android:layout_toEndOf="@+id/escuelaButton"
+            android:background="@color/colorPrimaryDark"
+            android:text="Aluche" />
+
+        <Button
+            android:id="@+id/escuelaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20px"
+            android:layout_marginStart="79dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Escuela"
+            android:textColorLink="@color/colorPrimary" />
+    </RelativeLayout>
+
+</LinearLayout>
